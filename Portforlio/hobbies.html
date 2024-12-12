@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1"/>
+	<meta name="description" content="This is the resume page for the one and the only Kaidan D. Where he makes and shows off his amazing website building skills. If you want the coolest top tier websites then you know where to go.">
+	<title>Kaidan's Web Designs</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo.png" height="80px" width="300px" alt="dragon logo for my website">
+	</header>
+	<nav>
+		<ul>
+	        <li><a href="index.html">Home</a></li>
+	        <li><a href="resume.html">Resume</a></li>
+	        <li><a href="hobbies.html">Hobbies</a></li>
+	        <li><a href="portfolio.html">Portfolio</a></li>
+    	</ul>
+	</nav>
+	<main>
+		<h2>Longboarding</h2><br>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-9">
+					<img src="images/skate-pic.jpg" style="display:block;margin:0 auto;" height="auto" width="100%" id="preview" class="skate-hero" class="img-fluid">
+				</div>
+				<div class="col-sm-3">
+					<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+			        	<img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/skate-pic.jpg" alt="Me on a longboard" class="img-fluid"/>
+			        	<br>
+			        	<br>
+			        	<img onclick="document.getElementById('preview').src= document.getElementById('img3').src;" id="img3" src="images/city.jpg" alt="city" class="img-fluid"/>
+			        	<br>
+			        	<br>
+			        	<img onclick="document.getElementById('preview').src= document.getElementById('img4').src;" id="img4" src="images/snowman.jpg" alt="snowman" class="img-fluid"/>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+		<br><br>
+		<h2>Hanging Out With My Friends</h2><br>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="gallery-thumbnails-two" style="margin:0 auto;text-align:center">
+			        	<img onclick="document.getElementById('view').src= document.getElementById('img5').src;" id="img5" src="images/christmas.jpeg" alt="me and my friend mirror pic." class="img-fluid"/>
+			        	<br>
+			        	<br>
+			        	<img onclick="document.getElementById('view').src= document.getElementById('img6').src;" id="img6" src="images/mirror-pic.jpg" alt="me and my girlfriend" class="img-fluid"/>
+			        	<br>
+			        	<br>
+			        	<img onclick="document.getElementById('view').src= document.getElementById('img7').src;" id="img7" src="images/homie.jpg" alt="homie" class="img-fluid"/>
+			    	</div>
+				</div>
+				<div class="col-sm-9">
+					<img src="images/christmas.jpeg" style="display:block;margin:0 auto;" height="auto" width="100%" id="view" class="skate-hero" class="img-fluid">
+			    </div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="icons">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<h5>Web Design Page</h5>
+						<p>Kaidan's Web Designs is a website made to show my skills in making websites. Here you can find a few of the pages I've made over the course of my HTML coding career. Along with that I've included a little about me, my intrests, and my hobbies. Enjoy what you find and contact me if you need help with making a website.</p>
+					</div>
+					<div class="col-sm-6">
+						<h5>Connect with Me</h5>
+						<p><i class="fa fa-github-alt" aria-hidden="true"></i>  Github</p>
+						<p><i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i>  Email Us</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<small>&copy; Kaidan Dieringer. All rights reserved.</small>
+    </footer>
+	   <!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

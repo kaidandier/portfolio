@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Kode+Mono:wght@400..700&family=Lobster&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Moul&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+   font-family: "Montserrat", system-ui;
+   margin: 0;
+   background: rgb(70,36,5);
+   background: linear-gradient(90deg, rgba(70,36,5,1) 0%, rgba(184,86,3,1) 25%, rgba(229,115,26,1) 50%, rgba(238,123,25,1) 75%, rgba(70,36,5,1) 100%);
+}
+
+ /* Website Links except the nav */
+a:link{
+    color: #b300b3;
+}
+a:visited{
+    color: #872602;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: black;
+}
+header{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Moul", system-ui;
+    color: #872602;
+    text-shadow: 5px 5px 2px black;
+    background: rgb(70,36,5);
+    background: linear-gradient(90deg, rgba(70,36,5,1) 0%, rgba(184,86,3,1) 25%, rgba(229,115,26,1) 50%, rgba(238,123,25,1) 75%, rgba(70,36,5,1) 100%);
+}
+
+/*navigation*/
+nav{
+    background-color: #ee7b19;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 5px;
+}
+nav ul{
+   list-style-type: none;
+   text-align: center;
+   margin: 8px 0;
+   padding: 0;
+}
+nav li{
+    display: inline;
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+    color: #872602;
+}
+nav a:visted{
+    color: #872602;
+}
+nav a:hover{
+    color: lightgrey;
+}
+nav a:active{
+    color: #872602;
+}
+
+
+/*Main*/
+main{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.home-hero{
+    background-image: url(images/header.jpg);
+    height: 475px;
+    background-size: cover;
+    background-position: center;
+    color: #042837;
+    padding: 10px 10px 10px 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid black;
+    border-bottom: none;
+}
+blockquote{
+    background-color: #eeeeee;
+    border-left: 10px solid gray;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid black;
+    border-top: none;
+}
+img{
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+/*Footer*/
+footer{
+  border-top: black 3px solid;
+  text-align: center;
+  background-color: #ee7b19;
+ } 
+footer .fa{
+    font-size: 70px;
+    padding: 15px;
+    color: #872602;
+}
+.icons{
+    background-size: 1200px;
+}
+
+  /*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+}
+h3{
+    font-family: "Lobster", system-ui;
+    color: #872602;
+    text-shadow: 2px 2px 2px black;
+}
+h4{
+    text-align: center;
+    padding-top: 8px;
+    color: #872602;
+    text-shadow: 1px 1px 0.5px black;
+    font-family: "Lobster", system-ui;
+}
+h5{
+    font-family: "Moul", system-ui;
+    color: #872602;
+    text-shadow: 1.5px 1.5px 2px black;
+    font-size: 15px;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 2em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 1.3em;
+  }
+  h3{
+    font-size: 1.2em;
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+}

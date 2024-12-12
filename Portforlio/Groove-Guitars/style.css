@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+   font-family: "Montserrat", system-ui;
+   margin: 0;
+ }
+
+ /* Website Links except the nav */
+a:link{
+    color: black;
+}
+a:visited{
+    color:#EB4A4A;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: black;
+}
+header{
+    text-align: center;
+    background: rgb(155,23,25);
+    background: linear-gradient(90deg, rgba(155,23,25,1) 0%, rgba(62,3,4,1) 25%, rgba(0,0,0,1) 50%, rgba(62,3,4,1) 75%, rgba(155,23,25,1) 100%);
+}
+
+/*navigation*/
+nav{
+    border: 3px solid #4d4b4b;
+    border-bottom: 3px solid #4d4b4b;
+    padding: 5px;
+    background: rgb(155,23,25);
+    background: linear-gradient(90deg, rgba(155,23,25,1) 0%, rgba(62,3,4,1) 25%, rgba(0,0,0,1) 50%, rgba(62,3,4,1) 75%, rgba(155,23,25,1) 100%);
+}
+nav ul{
+   list-style-type: none;
+   text-align: center;
+   margin: 8px 0;
+   padding: 0;
+}
+nav li{
+    display: inline;
+    padding: 15px;
+    font-size: 1.5em;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+    color: white;
+}
+nav a:hover{
+    color: lightgrey;
+}
+nav a:active{
+    color: gray;
+}
+nav a:visted{
+    color: white;
+}
+
+/*Main*/
+main{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/*Footer*/
+footer{
+  border-top: black 3px solid;
+  text-align: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(62,3,4,1) 25%, rgba(155,23,25,1) 50%, rgba(62,3,4,1) 75%, rgba(0,0,0,1) 100%);
+} 
+.logo{
+    max-width: 250px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+#home-hero{
+    background-image: url(images/guitars.jpg);
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+#home-hero h1{
+    margin:0 auto;
+    text-align: center;
+    color: #EB4A4A;
+    text-shadow: 5px 5px 5px black;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+.float-right{
+    float: right;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+h1{
+    color: #EB4A4A;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    margin-top: 8px 0;
+}
+h2{
+    background-color: #EB4A4A;
+    border-bottom: black solid 3px;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    background: rgb(33,30,32);
+    background: linear-gradient(90deg, rgba(33,30,32,1) 0%, rgba(155,23,25,1) 25%, rgba(216,15,16,1) 50%, rgba(155,23,25,1) 75%, rgba(0,0,0,1) 100%);
+}
+table{
+  border-collapse: collapse;
+  border: 3px solid #000000;
+  margin: 0 auto;
+}
+tr:nth-child(even){
+  background-color: #F4A8A8;
+}
+th{
+  background-color: #EB4A4A;
+  color: lightgrey;
+  padding: 10px;
+  border-bottom: 3px solid #000000;
+}
+td{
+  border: 3px solid #393939;
+  padding: 10px;
+}
+form{
+    border: black solid 3px;
+    display: table;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+label{
+    float: left;
+    width: 8em;
+    padding-right: 1em;
+    color: black;
+    font-weight: bold;
+}
+#guitar-hero{
+    background-image: url(images/guitar2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    opacity: 80%;
+    background-image: ;
+}
+input, textarea{
+    margin-bottom: 1em;
+    display:block;
+}
+
+input[type="submit"]{
+    display: block;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(150,92,43,1) 25%, rgba(215,160,63,1) 50%, rgba(150,92,43,1) 75%, rgba(0,0,0,1) 100%);
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 200px;
+}
+
+
+  /*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 2em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
